@@ -1,10 +1,14 @@
 import React from 'react'
 import Counter from './hooks/usestate/Counter'
+import UseState2 from './hooks/usestate/useState2'
+import UseState3 from './hooks/usestate/UseState3'
 
 const App = () => {
   return (
     <div>
-      < Counter />
+      <Counter />
+      <UseState2 />
+      <UseState3 />
     </div>
   )
 }
