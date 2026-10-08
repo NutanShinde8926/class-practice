@@ -2,6 +2,7 @@ import React from 'react'
 import Counter from './hooks/usestate/Counter'
 import UseState2 from './hooks/usestate/useState2'
 import UseState3 from './hooks/usestate/UseState3'
+import Mobiles from './revision/Mobiles'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Counter />
       <UseState2 />
       <UseState3 />
+      <Mobiles />
     </div>
   )
 }

@@ -1,5 +1,25 @@
+.parent {
 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 
+.card {
+  background-color: #777;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card button{
+  padding: 5px;
+  background-color: #111;
+  color: white;
+}
 
 
 
