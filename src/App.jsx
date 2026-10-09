@@ -3,6 +3,8 @@ import Counter from './hooks/usestate/Counter'
 import UseState2 from './hooks/usestate/useState2'
 import UseState3 from './hooks/usestate/UseState3'
 import Mobiles from './revision/Mobiles'
+import MyComp from './hooks/useeffect/MyComp'
+import EffectCounter from './hooks/useeffect/EffectCounter'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <UseState2 />
       <UseState3 />
       <Mobiles />
+      <MyComp />
+      <EffectCounter />
     </div>
   )
 }
