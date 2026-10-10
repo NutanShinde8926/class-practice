@@ -4,7 +4,7 @@ const UseState3 = () => {
     const [employee, setEmployee] = useState({
         name: 'Reshma',
         age: 24, 
-        salary: 83000,
+        salary: 10000,
         address: 'pune'
     })
 
@@ -12,7 +12,7 @@ const UseState3 = () => {
         setEmployee(data => {
             return {
                 ...data,
-                salary:data.salary + 120000
+                salary:data.salary + 1000
                 
             }
         })
