@@ -31,6 +31,14 @@
   padding: 20px;
 }
 
+.sal{
+  background-color: #2d0c0c5b;
+  border-radius: 5px;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+  transform: translate(-4px);
+}
 
 
 

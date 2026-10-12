@@ -7,6 +7,7 @@ const UseState3 = () => {
         salary: 10000,
         address: 'pune'
     })
+    
 
     function updateSalary(){
         setEmployee(data => {
@@ -36,7 +37,7 @@ const UseState3 = () => {
       <h4>Salary: {employee.salary}</h4>
       <h4>Address: {employee.address}</h4>
 
-      <button onClick={updateSalary}>Update Salary</button>
+      <button className='sal' onClick={updateSalary}>Update Salary</button>
       <br />
       <button onClick={updateAddress}>Update address</button>
       
