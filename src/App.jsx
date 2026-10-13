@@ -5,6 +5,8 @@ import UseState3 from './hooks/usestate/UseState3'
 import Mobiles from './revision/Mobiles'
 import MyComp from './hooks/useeffect/MyComp'
 import EffectCounter from './hooks/useeffect/EffectCounter'
+import NewComp from './hooks/usecontext/NewComp'
+import UserProvider from './hooks/usecontext/UserProvider'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Mobiles />
       <MyComp />
       <EffectCounter />
+     <NewComp />
+     <UserProvider />
     </div>
   )
 }
