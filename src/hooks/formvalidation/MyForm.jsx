@@ -1,19 +1,28 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const MyForm = () => {
 
     const [name, setName] = useState("");
     const [age,setAge] = useState("");
     const [salary ,setSalary] = useState("");
+
+    const ip = useRef();
+
+    useEffect(() => {
+        ip.current.focus();
+    },[])
+
   return (
     <div>
       <input type='text'
+      ref={ip}
       placeholder='Enter name'
       value={name}
       onChange={(e) => setName(e.target.value)}
       /> <br />
 
       <input type='number'
+      ref={ip}
       value={age}
       placeholder='Enter age'
       onChange={(e) => setAge(e.target.value)}
