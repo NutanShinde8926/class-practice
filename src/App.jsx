@@ -7,6 +7,7 @@ import MyComp from './hooks/useeffect/MyComp'
 import EffectCounter from './hooks/useeffect/EffectCounter'
 import NewComp from './hooks/usecontext/NewComp'
 import UserProvider from './hooks/usecontext/UserProvider'
+import MyForm from './hooks/formvalidation/MyForm'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <EffectCounter />
      <NewComp />
      <UserProvider />
+     <MyForm />
     </div>
   )
 }
