@@ -63,7 +63,7 @@ const handleSubmit = (e) => {
 }
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} noValidate>
          <input type="text"
          placeholder='Enter name'
          name='name'
@@ -96,6 +96,7 @@ const handleSubmit = (e) => {
         /> 
         <br /> 
          {errors.password && <P>{errors.password}</P>}
+        <button type="submit">Sign up</button>
       </form>
     </div>
   )
