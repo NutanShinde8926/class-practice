@@ -15,7 +15,7 @@ import ChangeColor from './hooks/useeffect/ChangeColor'
 const App = () => {
   return (
     <div>
-      <Counter />
+      {/* <Counter />
       <UseState2 />
       <UseState3 />
       <Mobiles />
@@ -24,9 +24,9 @@ const App = () => {
      <NewComp />
      <UserProvider />
      <MyForm />
-     <FormValidation />
+     <FormValidation /> */}
      <HookForm />
-     <ChangeColor />
+     {/* <ChangeColor /> */}
     </div>
   )
 }
