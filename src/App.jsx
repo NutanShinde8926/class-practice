@@ -30,9 +30,9 @@ const App = () => {
      <FormValidation /> */}
      {/* <HookForm /> */}
      {/* <ChangeColor /> */}
-     {/* <ExternalCompenent />
-     <BatchProvider /> */}
-     <UseReducerCounter />
+     <ExternalCompenent />
+     <BatchProvider />
+     {/* <UseReducerCounter /> */}
     </div>
   )
 }
