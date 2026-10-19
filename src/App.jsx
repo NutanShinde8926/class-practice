@@ -11,6 +11,9 @@ import MyForm from './hooks/formvalidation/MyForm'
 import FormValidation from './hooks/formvalidation/FormValidation'
 import HookForm from './hooks/formvalidation/HookForm'
 import ChangeColor from './hooks/useeffect/ChangeColor'
+import ExternalCompenent from './hooks/usecontext/ExternalComponent'
+import BatchProvider from './hooks/usecontext/BatchProvider'
+import UseReducerCounter from './hooks/usereducer/UseReducerCounter'
 
 const App = () => {
   return (
@@ -25,8 +28,11 @@ const App = () => {
      <UserProvider />
      <MyForm />
      <FormValidation /> */}
-     <HookForm />
+     {/* <HookForm /> */}
      {/* <ChangeColor /> */}
+     {/* <ExternalCompenent />
+     <BatchProvider /> */}
+     <UseReducerCounter />
     </div>
   )
 }
