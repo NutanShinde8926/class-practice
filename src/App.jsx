@@ -29,7 +29,7 @@ const App = () => {
      <MyForm />
      <FormValidation /> */}
      {/* <HookForm /> */}
-     {/* <ChangeColor /> */}
+     <ChangeColor />
      {/* <ExternalCompenent />
      <BatchProvider /> */}
      <UseReducerCounter />
