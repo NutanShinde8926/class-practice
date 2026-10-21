@@ -23,7 +23,7 @@ const App = () => {
       <UseState3 />
       <Mobiles />
       <MyComp />
-      <EffectCounter />
+     
      <NewComp />
      <UserProvider />
      <MyForm />
@@ -32,7 +32,8 @@ const App = () => {
      <ChangeColor />
      {/* <ExternalCompenent />
      <BatchProvider /> */}
-     <UseReducerCounter />
+     {/* <UseReducerCounter /> */}
+      <EffectCounter />
     </div>
   )
 }

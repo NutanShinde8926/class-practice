@@ -9,15 +9,30 @@ const UseState3 = () => {
     })
     
 
-    function updateSalary(){
-        setEmployee(data => {
-            return {
-                ...data,
-                salary:data.salary + 1000
+    // function updateSalary(){
+    //     setEmployee(data => {
+    //         return {
+    //             ...data,
+    //             salary:data.salary + 1000
                 
-            }
-        })
-    }
+    //         }
+    //     })
+    // }
+
+
+
+
+   function updateSalary(){
+    setEmployee(data => {
+        return {
+            ...data,
+            salary:data.salary + 1000
+        }
+    })
+   }
+
+
+
 
     function updateAddress(){
         setEmployee(data => {
