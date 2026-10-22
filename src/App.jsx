@@ -16,32 +16,37 @@ import BatchProvider from './hooks/usecontext/BatchProvider'
 import UseReducerCounter from './hooks/usereducer/UseReducerCounter'
 import { ThemeContext, ThemeProvider } from './ThemeContext'
 import Nutan from './Nutan'
+import UseReducerCounter2 from './hooks/usereducer/UseReducerCounter2'
+import Reshma from './reshma'
 
 
 
 // const App = () => {
 //   return (
 //     <div>
-       {/* <Counter />
-      <UseState2 />
-      <UseState3 />
-      <Mobiles />
-      <MyComp />
-      <NewComp />
-     <UserProvider />
-     <MyForm />
-      <FormValidation /> 
-     <HookForm /> 
-      <ChangeColor />
-     <ExternalCompenent />
-     <BatchProvider />
-     <UseReducerCounter />
-       <EffectCounter /> */}
-       {/* <ThemeContext />
-     </div>
-  )
-} */}
+//        <Counter />
+//       <UseState2 />
+//       <UseState3 />
+//       <Mobiles />
+//       <MyComp />
+//       <NewComp />
+//      <UserProvider />
+//      <MyForm />
+//       <FormValidation />
+//      <HookForm /> 
+//       <ChangeColor />
+//      <ExternalCompenent />
+//      <BatchProvider />
+//      <UseReducerCounter2 />
+//      <UseReducerCounter />
+//        <EffectCounter /> 
+//         <ThemeContext />
+        
+//      </div>
+//   )
+// } 
 
+// export default App
 
 
 
@@ -51,9 +56,9 @@ function AppContent(){
   const { theme } = useContext(ThemeContext);
   return(
    <div className={theme}>
-    <Nutan />
+   <Reshma />
    </div>
-  )
+  );
 }
 
 
