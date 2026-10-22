@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Counter from './hooks/usestate/Counter'
 import UseState2 from './hooks/usestate/useState2'
 import UseState3 from './hooks/usestate/UseState3'
@@ -14,31 +14,60 @@ import ChangeColor from './hooks/useeffect/ChangeColor'
 import ExternalCompenent from './hooks/usecontext/ExternalComponent'
 import BatchProvider from './hooks/usecontext/BatchProvider'
 import UseReducerCounter from './hooks/usereducer/UseReducerCounter'
+import { ThemeContext, ThemeProvider } from './ThemeContext'
+import Nutan from './Nutan'
 
-const App = () => {
-  return (
-    <div>
-      {/* <Counter />
+
+
+// const App = () => {
+//   return (
+//     <div>
+       {/* <Counter />
       <UseState2 />
       <UseState3 />
       <Mobiles />
       <MyComp />
-     
-     <NewComp />
+      <NewComp />
      <UserProvider />
      <MyForm />
-     <FormValidation /> */}
-     {/* <HookForm /> */}
-     <ChangeColor />
-     {/* <ExternalCompenent />
-     <BatchProvider /> */}
-     {/* <UseReducerCounter /> */}
-      <EffectCounter />
-    </div>
+      <FormValidation /> 
+     <HookForm /> 
+      <ChangeColor />
+     <ExternalCompenent />
+     <BatchProvider />
+     <UseReducerCounter />
+       <EffectCounter /> */}
+       {/* <ThemeContext />
+     </div>
+  )
+} */}
+
+
+
+
+
+function AppContent(){
+
+  const { theme } = useContext(ThemeContext);
+  return(
+   <div className={theme}>
+    <Nutan />
+   </div>
+  )
+}
+
+
+function App(){
+  return(
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   )
 }
 
 export default App
+
+
 
 
 
