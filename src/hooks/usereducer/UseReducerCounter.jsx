@@ -18,15 +18,15 @@ function reducer(state, action) {
     }
 }
 
-// export default function UseReducerCounter() {
-//     const [state, dispatch] = useReducer(reducer, initialState);
+export default function UseReducerCounter() {
+    const [state, dispatch] = useReducer(reducer, initialState);
 
-//     return (
-//         <>
-//         <h4>Count: {state.count}</h4>
-//         <button onClick={() => dispatch({ type: "Increment"})}>Increment</button>
-//         <button onClick={() => dispatch({ type: "Decrement"})}>Decrement</button>
-//         <button onClick={() => dispatch({ type: "Reset"})}>Reset</button>
-//         </>
-//     );
-// }
+    return (
+        <>
+        <h4>Count: {state.count}</h4>
+        <button onClick={() => dispatch({ type: "Increment"})}>Increment</button>
+        <button onClick={() => dispatch({ type: "Decrement"})}>Decrement</button>
+        <button onClick={() => dispatch({ type: "Reset"})}>Reset</button>
+        </>
+    );
+}
